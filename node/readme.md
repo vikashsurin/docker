@@ -6,14 +6,16 @@
 - create working dir 
 - run installer command
 - default commamd
-- ```docker run vikashsurin/nodeapp
+- ```
+    docker run vikashsurin/nodeapp
   ```
 ## browser cannot connect to port directly , so
 ### configuration
 -  -p  (port)
 - docker run -p browserport:server port vikashsurin/nodeapp 
 - ex:- 
-  ```docker run -p 8080:8000 vikashsurin/nodeapp
+  ```
+  docker run -p 8080:8000 vikashsurin/nodeapp
   ```
 # Run 
 - build
