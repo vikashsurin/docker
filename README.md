@@ -29,3 +29,6 @@ s
 - docker prune image 
 - docker prune image -a
 - docker container prune -a
+
+# namimg and tagging docker image
+- docker build  -t vikashsurin/mymongo:latest .
