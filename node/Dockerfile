@@ -2,8 +2,8 @@ FROM node:alpine
 
 WORKDIR /usr/nodeapp/
 
-COPY ./ ./
+COPY ./package.json ./
 
 RUN  yarn install
-
+COPY ./  ./
 CMD [ "yarn", "start" ]
