@@ -7,8 +7,8 @@ RUN echo 'https://dl-cdn.alpinelinux.org/alpine/v3.9/main' >> /etc/apk/repositor
 RUN echo 'https://dl-cdn.alpinelinux.org/alpine/v3.9/community' >> /etc/apk/repositories
 
 RUN apk update
-RUN apk add --no-cache mongodb=4.0.5-r0
-
+RUN apk add  mongodb=4.0.5-r0
+RUN apk add isl
 
 #step : 2.5 configure the software
 VOLUME [ "/data/db" ]
