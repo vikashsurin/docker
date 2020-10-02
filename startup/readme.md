@@ -2,6 +2,7 @@
 - 1.node container and 2.mongodb container (both will work together).
 
 ## Run 
+   dir../startup/
  - ```
    docker-compose up --build
    ```
