@@ -1,3 +1,4 @@
+
 # exec flags
 - --detach , -d		Detached mode: run command in the background
 - --detach-keys		Override the key sequence for detaching a container
@@ -30,5 +31,14 @@ s
 - docker prune image -a
 - docker container prune -a
 
-# namimg and tagging docker image
+# naming and tagging docker image
 - docker build  -t vikashsurin/mymongo:latest .
+
+# docker-compose
+- only works in a docker directory
+- docker-compose up --build
+
+
+# possible errors while configuring
+- ## CMD [ "yarn","start" ]   ==! CMD ["yarn ","start"]  
+- space inside the double quotes are not allowed.
