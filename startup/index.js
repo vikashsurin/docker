@@ -3,7 +3,9 @@ const express = require("express")
 const app = express();
 
 
-const DB = "mongodb://mymongo:27017/startup";
+
+// const DB = "mongodb://localhost:27017/startup"; when mongodb is running in local
+const DB = "mongodb://mymongo:27017/startup"; // when mongodb is running in docker 
 
 mongoose
   .connect(DB)
